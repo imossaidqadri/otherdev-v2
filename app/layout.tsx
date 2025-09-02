@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import './design-system.css'
 import MotionProviders from '@/components/motion/providers'
+import Navigation from '@/components/Navigation'
 
 export const metadata: Metadata = {
   title: 'OtherDev - Creative Software Agency',
@@ -64,6 +65,7 @@ export default function RootLayout({
       </head>
       <body>
         <MotionProviders>
+          <Navigation />
           {children}
         </MotionProviders>
       </body>
