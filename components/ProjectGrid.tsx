@@ -1,6 +1,6 @@
 "use client";
 
-import { m } from "framer-motion";
+import { m, Variants } from "framer-motion";
 import ProjectCard, { Project } from "./ProjectCard";
 import styles from "./ProjectGrid.module.css";
 
@@ -8,7 +8,7 @@ interface ProjectGridProps {
   projects: Project[];
 }
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
@@ -19,7 +19,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
   show: {
     opacity: 1,

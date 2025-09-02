@@ -16,10 +16,12 @@ const ArrowIcon = () => (
   </svg>
 )
 
-const MagneticLink = ({ children, href, className = "" }: { 
+const MagneticLink = ({ children, href, className = "", target, rel }: { 
   children: React.ReactNode
   href: string
   className?: string
+  target?: string
+  rel?: string
 }) => {
   const magnetic = useRef<HTMLAnchorElement>(null)
   const x = useMotionValue(0)
@@ -46,6 +48,8 @@ const MagneticLink = ({ children, href, className = "" }: {
       ref={magnetic}
       href={href}
       className={className}
+      target={target}
+      rel={rel}
       style={{ x, y }}
       onMouseMove={handleMouse}
       onMouseLeave={reset}

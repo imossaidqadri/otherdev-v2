@@ -3,7 +3,7 @@
 import { LazyMotion, MotionConfig } from 'framer-motion'
 
 const loadFeatures = () =>
-  import('./features').then(res => res.default)
+  import('../../lib/motion-features').then(res => res.default)
 
 interface MotionProvidersProps {
   children: React.ReactNode
