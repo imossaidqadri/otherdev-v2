@@ -1,0 +1,187 @@
+import type { Project } from '$lib/types';
+
+export const projects: Project[] = [
+  {
+    id: "1",
+    title: "SEO Implementation & Technical Optimization for Narkins Builders",
+    slug: "narkins-seo-2025",
+    image:
+      "/images/projects/narkins-seo-2025/www.narkinsbuilders.com_blog_standard_size.webp",
+    description:
+      "Comprehensive SEO transformation for Narkins Builders featuring technical optimization, schema markup, and MDX blog migration. Achieved 30% traffic improvement and elevated their rankings to compete with industry giants in Pakistan's real estate market.",
+    url: "narkinsbuilders.com/blog",
+    media: [
+      "/images/projects/narkins-seo-2025/www.narkinsbuilders.com_blog_standard_size.webp",
+      "/images/projects/narkins-seo-2025/narkins_graphs_beauty.webp",
+      "/images/projects/narkins-seo-2025/www.narkinsbuilders.com_blog_2025_10_thar-water-supply-project-october-2025-nabisar-vajihar-completion.webp",
+      "/images/projects/narkins-seo-2025/www.narkinsbuilders.com_blog_comments.webp",
+    ],
+  },
+  {
+    id: "2",
+    title: "Real Estate Platform Development for Bin Yousuf Group",
+    slug: "bin-yousuf-2025",
+    image:
+      "/images/projects/bin-yousuf-2025/www.binyousufgroup.com_projects_panorama_standard_size.webp",
+    description:
+      "Sophisticated real estate platform for Bin Yousuf Group showcasing premium waterfront properties in Karachi. Features interactive galleries, Google Sheets lead integration, and optimized UX for Emaar Oceanfront and HMR Waterfront luxury investments.",
+    url: "binyousufgroup.com",
+    media: [
+      "/images/projects/bin-yousuf-2025/www.binyousufgroup.com_projects_panorama_standard_size.webp",
+      "/images/projects/bin-yousuf-2025/byg-property-showcase.webp",
+      "/images/projects/bin-yousuf-2025/luxury-apartments-karachi.webp",
+      "/images/projects/bin-yousuf-2025/byg-logo-brand.webp",
+    ],
+  },
+  {
+    id: "3",
+    title: "AI Legal Assistant Platform Development for Lexa",
+    slug: "lexa-2025",
+    image: "/images/projects/lexa-2025/lexa.deployments.otherdev.com_home.webp",
+    description:
+      "Intelligent AI legal assistant platform for law firms and SMEs featuring real-time contract analysis and automated document generation. Combines advanced NLP with collaborative editing for legal professionals across Asia and the Middle East.",
+    url: "lexa.deployments.otherdev.com",
+    media: [
+      "/images/projects/lexa-2025/lexa.deployments.otherdev.com_home.webp",
+      "/images/projects/lexa-2025/happier-notes-792028.framer.app_.webp",
+      "/images/projects/lexa-2025/signing-desktop.webp",
+      "/images/projects/lexa-2025/lexa.deployments.otherdev.com_chat.webp",
+    ],
+  },
+  {
+    id: "4",
+    title: "E-commerce Platform for Olly Shinder",
+    slug: "olly-shinder-2025",
+    image: "/images/projects/olly-2025/products-page-desktop.webp",
+    description:
+      "Olly Shinder is a menswear designer from London, part of the Fashion East and Dover Street Market incubators. We designed and developed a minimal, grid-based platform to unify his collections and e-commerce content.",
+    url: "olly-shinder.com",
+    media: [
+      "/images/projects/olly-2025/products-page-desktop.webp",
+      "/images/projects/olly-2025/product-page-2.webp",
+      "/images/projects/olly-2025/olly-shinder-product-page.webp",
+    ],
+  },
+  {
+    id: "5",
+    title: "Branding & website development for Wish",
+    slug: "wish-2024",
+    image: "/images/projects/wish-2024/wishapparels.com_.webp",
+    description:
+      "Complete branding and e-commerce platform for Wish Apparels showcasing their clothing line with high-quality visuals. Intuitive design with seamless shopping experience that communicates the brand's ethos and drives customer engagement.",
+    url: "wishapparels.com",
+    media: [
+      "/images/projects/wish-2024/upper-slideshow-1.webp",
+      "/images/projects/wish-2024/1743813808292_100.webp",
+      "/images/projects/wish-2024/wish-girl-11.webp",
+      "/images/projects/wish-2024/wish-boy-1.webp",
+      "/images/projects/wish-2024/wish-logo.webp",
+      "/images/projects/wish-2024/with-other-dev.webp",
+    ],
+  },
+  {
+    id: "6",
+    title: "Website infrastructure creation for Narkins Builders",
+    slug: "narkins-2025",
+    image: "/images/projects/narkins-2025/narkinsbuilders.com_.webp",
+    description:
+      "Robust website infrastructure for Narkins Builders showcasing their construction portfolio and services. User-friendly platform designed to facilitate client inquiries and enhance digital communication with stakeholders.",
+    url: "narkinsbuilders.com",
+    media: [
+      "/images/projects/narkins-2025/narkins-collage.webp",
+      "/images/projects/narkins-2025/1743813250549_100.webp",
+      "/images/projects/narkins-2025/hcr_new.webp",
+    ],
+  },
+  {
+    id: "7",
+    title: "Branding & SaaS Platform Development for Finlit",
+    slug: "finlit-2025",
+    image: "/images/projects/finlit-2025/finlit-desktop-standard-ratio.webp",
+    description:
+      "Comprehensive SaaS platform development for Finlit including branding, visual identity, and full-stack learning application. Minimalist design that empowers users to confidently navigate the world of finance.",
+    url: "finlit.deployments.otherdev.com",
+    media: [
+      "/images/projects/finlit-2025/finlit-group.webp",
+      "/images/projects/finlit-2025/finlit-home-mobile.webp",
+      "/images/projects/finlit-2025/team-groupchat.webp",
+      "/images/projects/finlit-2025/finlit-courses-macbook.webp",
+      "/images/projects/finlit-2025/finlit-logo.webp",
+      "/images/projects/finlit-2025/finlit.deployments.otherdev.com_trading_1x1.webp",
+    ],
+  },
+  {
+    id: "8",
+    title: "Website Development for Groovy Pakistan",
+    slug: "groovy-pakistan-2024",
+    image:
+      "/images/projects/groovy-pakistan-2024/groovypakistan.com-standard-size.webp",
+    description:
+      "Strategic e-commerce website development for Groovy Pakistan mirroring the brand's dynamic spirit. Straightforward and engaging digital space that provides an intuitive pathway for customers to explore and purchase products.",
+    media: [
+      "/images/projects/groovy-pakistan-2024/groovy-group.webp",
+      "/images/projects/groovy-pakistan-2024/groovy-home-mobile.webp",
+      "/images/projects/groovy-pakistan-2024/groovy-layers.webp",
+      "/images/projects/groovy-pakistan-2024/shirts-cropped.webp",
+    ],
+  },
+  {
+    id: "9",
+    title: "Branding & website development for Parcheh81",
+    slug: "parcheh81-2024",
+    image: "/images/projects/parcheh81-2024/Parcheh.nyc_collections_all.webp",
+    description:
+      "Tailored e-commerce platform for Parcheh translating the texture and artistry of their textiles into digital experience. Elegant and intuitive design offering an immersive journey into the brand's world of premium fabrics.",
+    url: "parcheh81.com",
+    media: [
+      "/images/projects/parcheh81-2024/parcheh-home-mobile.webp",
+      "/images/projects/parcheh81-2024/parcheh-menu-mobile.webp",
+      "/images/projects/parcheh81-2024/parcheh-logo-gridded.webp",
+      "/images/projects/parcheh81-2024/girl-standing-square.webp",
+    ],
+  },
+  {
+    id: "10",
+    title: "Payment infrastructure migration for Tiny-Footprint Coffee",
+    slug: "tinyfootprintcoffee",
+    image:
+      "/images/projects/tinyfootprintcoffee/www.tinyfootprintcoffee.com_.webp",
+    description:
+      "Strategic subscription migration from Recharge to Shopify Payments for Tiny Footprint Coffee, the world's first carbon-negative coffee company. Seamless transition with data integrity ensuring uninterrupted service for their mission-supporting subscribers.",
+    url: "tinyfootprintcoffee.com",
+    media: [
+      "/images/projects/tinyfootprintcoffee/www.tinyfootprintcoffee.com_.webp",
+      "/images/projects/tinyfootprintcoffee/Mexico_808b95c1-9643-49c2-a054-eaf2bc2cf8f9.webp",
+    ],
+  },
+  {
+    id: "11",
+    title: "Website Development for Cultured Legacy",
+    slug: "cultured-legacy-2025",
+    image: "/images/projects/cultured-legacy-2025/culturedlegacy.shop_.png",
+    description: "Strategic e-commerce website development for Cultured Legacy that honors the brand's refined heritage. A sophisticated yet accessible digital space that guides customers through a curated journey of exploration and discovery.",
+    url: "culturedlegacy.shop",
+    media: [
+      "/images/projects/cultured-legacy-2025/culturedlegacy.shop_.png",
+      "/images/projects/cultured-legacy-2025/other.dev-13-11-2025-0004.webp"
+    ],
+  },
+  {
+    id: "12",
+    title: "Enterprise infrastructure development for Ek Qadam Aur",
+    slug: "ekqadamaur-2024",
+    image: "/images/projects/eqa-2024/www.ekqadamaur.org_.webp",
+    description: "Long-term technical partnership serving as the core technology team for Ek Qadam Aur NGO. Comprehensive end-to-end management including website design, development, hosting infrastructure, and ongoing technical support. From inception to present day, we've been their dedicated technology partner, ensuring seamless digital operations for their social impact initiatives.",
+    url: "ekqadamaur.org",
+    media: ["/images/projects/eqa-2024/www.ekqadamaur.org_.webp", "/images/projects/eqa-2024/ekqadamaur.webp"],
+  },
+  {
+    id: "13",
+    title: "Enterprise infrastructure development for NTL Exchange",
+    slug: "ntl-2024",
+    image: "/images/projects/ntl-trading-2024/1743818053315_100.png",
+    description: "Comprehensive digital transformation for NTL Exchange, encompassing complete brand identity creation, custom mobile application development for seamless on-the-go trading, responsive website design and development, and robust enterprise infrastructure solutions. A unified ecosystem that delivers secure, efficient, and user-friendly exchange services across all platforms.",
+    url: "www.ntlex.com",
+    media: ["/images/projects/ntl-trading-2024/1743818053315_100.png", "/images/projects/ntl-trading-2024/IMG_20250405_065546_880.webp"],
+  },
+];
